@@ -19,9 +19,7 @@ const count = ref(0)
   <p>See <code>README.md</code> for more information.</p>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Docs
-    </a>
+    <a href="https://vitejs.dev/guide/features.html" target="_blank"> Vite Docs </a>
     |
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
@@ -31,6 +29,13 @@ const count = ref(0)
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+  <p>内置鸿蒙OS简体(约7.87MB)</p>
+  <p>测试：</p>
+  <p>中文：中国制造惠及全球</p>
+  <p>英文[小写]：abcdefghijklmnopqrstuvwxyz</p>
+  <p>英文[大写]：ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+  <p>常用标点：，。！？%</p>
+  <p>数字：1234567890</p>
 </template>
 
 <style scoped>

@@ -70,7 +70,7 @@ instance.interceptors.response.use(
   (response) => {
     NProgress.done()
     removePending(response.config)
-    console.log('打印一下返回结果', response)
+    // console.log('打印一下返回结果', response)
     return response
   },
   (error) => {

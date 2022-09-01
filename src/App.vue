@@ -6,12 +6,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue3 + TypeScript + Vite2 + Pinia Template" />
+  <HelloWorld msg="Hello Vue3 + TypeScript + Vite2 + Pinia Template 中文" />
 </template>
 
 <style>
+@font-face {
+  font-family: 'HarmonyOS';
+  src: url('/src/assets/font/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: HarmonyOS, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
