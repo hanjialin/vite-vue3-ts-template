@@ -2093,6 +2093,11 @@ vite-plugin-compression@^0.5.1:
     debug "^4.3.3"
     fs-extra "^10.0.0"
 
+vite-plugin-html-env@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/vite-plugin-html-env/-/vite-plugin-html-env-1.2.7.tgz#6354e12ed3e642d91c9e1168c0b3ffc18e69616b"
+  integrity sha512-vdTnKtuBeB8Zp93DCbN0Qjf4odW2msVRq45r7lGKA6nwQGJFj6YemU54u3xPPkvDeZhG8DEEU64xbLwzVEBilQ==
+
 vite-plugin-html@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmjs.org/vite-plugin-html/-/vite-plugin-html-3.2.0.tgz#0d4df9900642a321a139f1c25c05195ba9d0ec79"
